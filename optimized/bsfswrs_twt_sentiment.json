@@ -1,0 +1,93 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "tweet": "Soooo high",
+      "sentiment": "neutral"
+    },
+    {
+      "augmented": true,
+      "tweet": " THANK YYYYYYYYYOOOOOOOOOOUUUUU!",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "i lost all my friends, i`m alone and sleepy..i wanna go home",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "im an avid fan of **** magazine and i love your magazines",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "_Mounce yes and it lasts way past my bedtime!",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "gotta restart my computer .. I thought Win7 was supposed to put an end to the constant rebootiness",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "Went to sleep and there is a power cut in Noida  Power back up not working too",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "i`ve been sick for the past few days  and thus, my hair looks wierd.  if i didnt have a hat on it would look... http://tinyurl.com/mnf4kw",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "Bah a coworker ran into work late and her bag smacked into my knee  it really hurts now",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "eating ice cream and then getting ready for graduation.",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "i`m soooooo sleeeeepy!!! the last day o` school was today....sniffle....",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "http://www.dothebouncy.com/smf - some shameless plugging for the best Rangers forum on earth",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "WOW, i AM REALLY MiSSiN THE FAM(iLY) TODAY. BADDD.",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "I give in to easily",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " Hi  how are you doing ???  *just joined twitter...*",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "MAYDAY?!",
+      "sentiment": "neutral"
+    }
+  ],
+  "signature": {
+    "instructions": "Given the fields `tweet`, produce the fields `sentiment`.",
+    "fields": [
+      {
+        "prefix": "Tweet:",
+        "description": "Candidate tweet for classification"
+      },
+      {
+        "prefix": "Sentiment:",
+        "description": "${sentiment}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.1.0",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "tweet": " I`d have responded, if I were going",
+      "sentiment": "neutral"
+    },
+    {
+      "augmented": true,
+      "tweet": " Sooo SAD I will miss you here in San Diego!!!",
+      "sentiment": "negative"
+    },
+    {
+      "augmented": true,
+      "tweet": "my boss is bullying me...",
+      "sentiment": "negative"
+    },
+    {
+      "augmented": true,
+      "tweet": " what interview! leave me alone",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " a celtics-lakers rematch sounds better don`t you think? lol",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "Went to sleep and there is a power cut in Noida  Power back up not working too",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "i`ve been sick for the past few days  and thus, my hair looks wierd.  if i didnt have a hat on it would look... http://tinyurl.com/mnf4kw",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " We saw that in none 3D - the baddie`s the best",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "_Mounce yes and it lasts way past my bedtime!",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "Soooo high",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": " romance zero is funny",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "i donbt like to peel prawns, i also dont like going shopping, running out of money and crawling round the car looking for more",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "waiting for sleeping pills to kick in... gonna be so tired at work tomorrow",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "the free fillin` app on my ipod is fun, im addicted",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "Sick. With a flu like thing.",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " That`s very funny.  Cute kids.",
+      "sentiment": "positive"
+    }
+  ],
+  "signature": {
+    "instructions": "Given the fields `tweet`, produce the fields `sentiment`.",
+    "fields": [
+      {
+        "prefix": "Tweet:",
+        "description": "Candidate tweet for classification"
+      },
+      {
+        "prefix": "Sentiment:",
+        "description": "${sentiment}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.1.0",
+      "cloudpickle": "3.1"
+    }
+  }
+}

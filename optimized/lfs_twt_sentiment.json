@@ -1,0 +1,91 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "tweet": " which case? I got a new one last week and I`m not thrilled at all with mine.",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " hemp cloth is marvelous but unfortunately no",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " it is ****...u have dissappointed me that past few days",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "http://www.dothebouncy.com/smf - some shameless plugging for the best Rangers forum on earth",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": " That`s very funny.  Cute kids.",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "Is at a photoshoot.",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "I give in to easily",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " also bored at school, its my third freelesson( freistunde )",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "i`m soooooo sleeeeepy!!! the last day o` school was today....sniffle....",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " haha yes",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "The girl in the hair salon asked me 'Shall I trim your eyebrows!' How old do I feel?",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": " she is good! so gor-juz yea i kno i asked her yesterday when we were at tha hospital if she talked to u and she said no",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "On the way to Malaysia...no internet access to Twit",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "mannnn..... _ got an iphone!!! im jealous....  http://bit.ly/NgnaR",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "i`ve been sick for the past few days  and thus, my hair looks wierd.  if i didnt have a hat on it would look... http://tinyurl.com/mnf4kw",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "Born and raised in NYC and living in Texas for the past 10 years!  I still miss NY",
+      "sentiment": "negative"
+    }
+  ],
+  "signature": {
+    "instructions": "Given the fields `tweet`, produce the fields `sentiment`.",
+    "fields": [
+      {
+        "prefix": "Tweet:",
+        "description": "Candidate tweet for classification"
+      },
+      {
+        "prefix": "Sentiment:",
+        "description": "${sentiment}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.1.0",
+      "cloudpickle": "3.1"
+    }
+  }
+}
