@@ -3,14 +3,14 @@
   "train": [],
   "demos": [],
   "signature": {
-    "instructions": "Carefully examine the provided tweet to discern the underlying sentiment, taking into account both overt and nuanced textual elements. Classify the tweet's sentiment as \"positive,\" \"neutral,\" or \"negative\" by thoughtfully integrating direct language signals and implicit emotional connotations. Frame your analysis by adopting a comprehensive understanding of context typical of social media lexicon, establishing an accurate insight into subtle emotion depicted through informal patterns, humor, emoticons, and extremes in dialect or wording.",
+    "instructions": "Your task is to rigorously evaluate the given `tweet` to uncover and reveal its underlying sentiment through a careful examination of language use, tone it exhibits, context enveloping it, strung keywords or phrases, and intricacies present within private connotations possibly threaded through figurative speech. Dig beneath plot to astutely hear its bassline emotive denotation, confining it provisionally to one word only: either clearly endorsed as “positive”, “negative”, or “neutral”.",
     "fields": [
       {
         "prefix": "Tweet:",
         "description": "Candidate tweet for classification"
       },
       {
-        "prefix": "From the comprehensive review, it's clear the sentiment attributed to the tweet is:",
+        "prefix": "The performed sentiment assessment categorizes the tweeted message as:",
         "description": "${sentiment}"
       }
     ]
@@ -18,8 +18,8 @@
   "lm": null,
   "metadata": {
     "dependency_versions": {
-      "python": "3.10",
-      "dspy": "3.1.0",
+      "python": "3.13",
+      "dspy": "3.0.4",
       "cloudpickle": "3.1"
     }
   }

@@ -1,9 +1,29 @@
 {
   "traces": [],
   "train": [],
-  "demos": [],
+  "demos": [
+    {
+      "augmented": true,
+      "tweet": "Playing Ghost Online is really interesting. The new updates are Kirin pet and Metamorph for third job.  Can`t wait to have a dragon pet",
+      "sentiment": "positive"
+    },
+    {
+      "augmented": true,
+      "tweet": " it is ****...u have dissappointed me that past few days",
+      "sentiment": "negative"
+    },
+    {
+      "augmented": true,
+      "tweet": "Happy Mothers day to all you Mums out there",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "im an avid fan of **** magazine and i love your magazines",
+      "sentiment": "positive"
+    }
+  ],
   "signature": {
-    "instructions": "Given the fields `tweet`, produce the fields `sentiment`.",
+    "instructions": "Imagine you are tasked with swiftly analyzing a growing surge of tweets in real-time during a critical event where distinguishing public sentiment on social media could significantly impact the understanding of public perception and potential responses. Your role is to carefully review each tweet provided and accurately determine if the overall sentiment is neutral, positive, or negative. This determination will directly influence decision-making strategies and reactions to the unfolding situation. Provide the sentiment classification for each given tweet based on its content.",
     "fields": [
       {
         "prefix": "Tweet:",
@@ -18,8 +38,8 @@
   "lm": null,
   "metadata": {
     "dependency_versions": {
-      "python": "3.10",
-      "dspy": "3.1.0",
+      "python": "3.13",
+      "dspy": "3.0.4",
       "cloudpickle": "3.1"
     }
   }
